@@ -1,0 +1,134 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <style>
+            body{
+                background-color: lightgray;
+            }
+            h2{
+                color:darkblue;
+                text-decoration: underline;
+            }
+            p{
+                font-family: Verdana;
+            }
+            ul{
+                font-family: Verdana
+            }
+            table, th, td {
+                border: 1px solid black;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <p style="color:darkred; font-weight: bold;">
+            Dylan Orshefsky
+            <br>
+            LSC 555
+            <br>
+            Assn. 2
+        </p>
+        <h1 style="font-family:verdana; color:darkblue">Usability Analysis: Tower Archive 1922-2018</h1>
+        <h2 style="font-family:verdana; color:darkblue">UI Inputs and Outputs</h2>
+        <table>
+            <tr>
+                <th>
+                    Input
+                </th>
+                <th>
+                    Output
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Click collection image (organized by two decades)
+                </td>
+                <td>
+                    Redirect to page w/ list of collection items as individual issues
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Keyword search 
+                </td>
+                <td>
+                    Redirect to search page, list of collection items sorted by relevance
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Input range into DATE filter 
+                </td>
+                <td>
+                    Same page, list collection items by title, only w/in range
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Click Catholic University badge 
+                </td>
+                <td>
+                    Redirect to University page w/in JSTOR, showing list of collections
+                </td>
+            </tr>
+        </table>
+        <h2>Heuristic Analysis</h2>
+        <p>
+            This collection matched a lot of my expectations around how this kind of information could be displayed and accessed.
+            <br> 
+            Search results were well organized and intelligible, and things like filters and keyword entry were located in findable places. 
+            <br>
+            The large thumbnails, showing the front page of each issue item was a smart piece of aesthetic design that was immediately recognizable.
+            <br>
+            <br>
+            <img src="browse.png"></img>
+            <br>
+            <br>
+            Entering a misspelled term (such as “vienam” instead of “vietnam”) did yield a suggestion for the desired term (Error Prevention). 
+            <br>
+            Sorting options made sense and conformed to desires and expectations (match between system and real world). 
+            <br>
+            Navigation was simple, including going “back” pages. One small note on visibility of system status: the in-document keyword search displayed
+            <br>
+            “No results found” while still searching, only to be updated once it's done scanning the document, which is not ideal.
+        </p>
+        <h2>Strengths and Weaknesses</h2>
+        <h3> Strengths: </h3>
+        <ol>
+            <li>
+                Browsing by date and finding specific issues by date is easy and direct.
+            </li>
+            <li>
+                Search features are easy to find, easy to use, and conform to standard expectations for inputting filters and sort operations.
+            </li>
+        </ol>
+        <h3> Weaknesses: </h3>
+        <ol>
+            <li>
+                Keyword search is spotty at best; terms aren't being used in a manner consistent with a controlled vocabulary (World War II vs WW2 vs WWII)
+            </li>
+            <li>
+                Metadata about contents of a given document is very light, verging on non-existent. The archive's metadata systems don't appear to include things like article titles,
+                <br>
+                or any other issue specific metadata, which weakens the relevance of search results.
+            </li>
+        </ol>
+        <img src="details.png"></img>
+        <h2>Form and Questionnaire</h2>
+        <p>
+            See attached.
+        </p>
+        <h2>Comparison</h2>
+        <p>
+            The results of the heuristic test were not very surprising to me. My tester noticed the same benefits that I did towards browsing, but also
+            <br>
+            found the search features to be lacking and sometimes frustrating. Even though the overall user interface was built with the same kind of pieces
+            <br>
+            as other similar systems, specific details of the implementation made it harder to use than they had expected. Overall, the struggle took place
+            <br>
+            more because of the specific nature of the collection's content, and how it had been indexed, rather than the overall sytem lacking the necessary tools.
+        </p>
+        <br>
+    </body>
+</html>
