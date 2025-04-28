@@ -1,0 +1,281 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <style>
+            body{
+                background-color: lightgray;
+            }
+            p{
+                font-family: Verdana;
+            }
+            a{
+                font-family: Verdana;
+            }
+            h2 {
+                font-family:verdana; 
+                color:darkblue
+            }
+            h3 {
+                font-family:verdana; 
+                color:darkblue
+            }
+            td{
+                font-weight: bold;
+            }
+            dl{
+                font-family:verdana; 
+            }
+        </style>
+        <div>
+            <p style="text-align:center; font-size:24px;"><b>Group 2: Scott Broussard, Sean Greenberg, Sasha Jernakoff, Dylan Orshefsky, Amanda Trawick</b></p>
+            <p style="text-align:center; font-size:24px;">LSC 555</p>
+            <p style="text-align:center; font-size:24px;">April 30, 2025</p>
+        </div>
+    </head>
+    <body>
+        <h1 style="text-align:center;">National Gallery of Art Web Search</h1>
+        <p style="text-align:center; font-size:24px;"><a href="https://library.nga.gov/discovery/search?vid=01NGA_INST:NGA">https://library.nga.gov/</a></p>
+        <h2 style="text-align:center;"">Temp: Current Content Word Count: ~2020 words</h2>
+        <h2>Introduction/Overview</h2>
+            <p>The National Gallery of Art Library, founded in 1941, accompanied the public opening of the National Gallery of Art with the mission 
+                of supporting the institution’s staff members and visiting researchers in their curatorial and research needs. The NGA Library’s collection 
+                contains 500,000+ books and periodicals on art, history, theory, architecture, and art criticism, particularly (though not exclusively) focusing 
+                on Europe and the United States. The library is located within the East Building of the National Gallery and includes a study center, rare book room, 
+                and library and image collections. The NGA Library also hosts an online catalog which can be searched on site or remotely and allows users to search 
+                not only the library’s owned content but also its digital serial subscriptions, its extensive image collection, its auction catalogs, and more.
+            </p>
+            <br>
+        <h2>Background: Behind the Scenes Tech</h2>
+            <p>We reached out to the NGA Library staff via email and requested some technical information about their systems for this project. 
+                Head of Technical Services at the National Gallery Library, Sarah Osborne Bender, volunteered to help answer our questions and 
+                provide a behind-the-scenes look at their website.
+            </p>
+            <p>The library’s main web pages, like the broader NGA.gov site, are managed at the institutional level. This includes 
+                the <a href="https://www.nga.gov/research/library.html">home landing page</a> along with the links to make appointments, contact librarians, 
+                and view collection highlights. The <a href="https://library.nga.gov/discovery/search?vid=01NGA_INST:NGA">library search website</a> is managed 
+                by NGA Libraries specifically. Their search system is powered by Ex Libris Primo VE discovery layer, which has been in use since November 2018. 
+                This UI will be familiar to CUA students as it is the same system behind the CUA Libraries search site. Two additional services are used to help 
+                present locally digitized collection content: 
+                “an embedded <a href="https://iiif.io/get-started/iiif-viewers/">IIIF viewer</a> [International Image Interoperability Framework] delivers 
+                image content into the bib record view. And the image files and image metadata is pulled from the institution's 
+                digital asset management system, <a href="https://www.netx.net/">NetX</a>.”
+            </p>
+            <p>The public facing library and catalog search website does not interface with any collections or catalogs inside or outside of NGA as an institution; 
+                it is a self-contained search system. The majority of the NGA Library collection is at least partially described and fully discoverable in the library 
+                catalog, but NOT through the NGA.gov website search. It is important to note that within the Vertical File collection, however, records are described 
+                at the folder level rather than the item level. Some items, especially within the expansive Image Collection, are described only at the “‘summary’ level 
+                to at least indicate that image holdings exist for a particular artist or grouping.”
+            </p>
+            <p>Osborne Bender added that “Though there is not linkage or other exchange…our permanent collection is managed 
+                using <a href="https://www.gallerysystems.com/tms-collections/tms-suite/tms/tms/">TMS collection management system</a> and our institutional 
+                archives uses <a href="https://archivesspace.org/">ArchiveSpace</a>. Our conservation department 
+                uses <a href="https://museumspace.com/conservationspace/">Conservation Space</a> for management of their data and images. None of these have 
+                public-facing search layers, though our archives is moving in that direction.” She also let us know that a new version of the main NGA website 
+                will be launched soon.
+            </p>
+            <p>One challenge experienced by the NGA Library staff with the library website is that, as part of a large institution with very controlled branding, 
+                any edits made to the main library webpage are carried out by a separate technical department and cannot be controlled or carried out by library 
+                staff outside of simply submitting change requests. However, the library search website in particular is under much more direct control of the library 
+                staff: “We can change content and design on these pages, though we want seamless visual continuity with the rest of nga.gov. We can also make changes 
+                to the configuration that impacts searching (what and how MARC fields are indexed, for example), change the bib record display to include local fields 
+                or local field labels, add and remove functions (such as citation tools, etc).” Another challenge Osborne Bender described is the question of what search 
+                scope to use as a default, with possibilities including just the “library” (print collection, subscribed online serials, purchased/licensed ebooks); the 
+                auction catalog collection; the image collection; only items owned by the library (the current default); electronic and digital content only; and “everything.” 
+                Each scope has its benefits and drawbacks for both the user and the librarians who are trying to ensure that the fullest extent of their collections are discoverable 
+                and usable by their patrons.
+            </p>
+            <p>Some strengths of the system, in Osborne Bender’s opinion, are the high quality of their cataloging, the embedded viewer for digitized content, and 
+                the power of their Primo VE search tool, all of which streamlines the process of connecting users to the content they are looking for. In the future, 
+                NGA Library is hoping to connect the NGA Library resources with the broader resources of the National Gallery in one search interface. This “would 
+                strengthen the meaning and relationships between original artworks, archival resources, scholarly publications, auction catalogs, conservation notes, and 
+                images,” in keeping with a current trend among other libraries, museums, and cultural heritage institutions.
+            </p>
+        <h2>Sean Search Etc.</h2>
+            <p></p>
+        <h2>Filters</h2>
+	        <h3> In general</h3>
+                <p>
+                    The filtering section of a retrieval system is meant to refine the search that a user has requested. The NGA Library’s filtering 
+                    system is specialized to meet the needs of art historians and that comes with advantages and disadvantages. A user can get very specific 
+                    with their filtering tags and find the exact search result they are looking for with no other extraneous results if done correctly. A key 
+                    component of the filtering system is how the filters update with each application. With each consecutive application, the filters become 
+                    more and more specific and replace the old ones from previous applications.
+                </p>
+                <p>However, this is only true once you learn the specific filtering system of NGA and know exactly what content you are looking for. 
+                    The disadvantages are that the user must learn the filtering system to use it effectively. Because it actively changes and updates 
+                    what filters are available with each progressive application of filters, meaning the user will have to remember filters or refresh 
+                    their search if they forget to add one and cannot find it again. 
+                </p>
+            <h3> Nielsen</h3>
+            <p>Looking at Nielson’s Heuristics, it does well with #1, Visibility and System status, but needs improvement on #4, Consistency and Standards, 
+                and #6, Recognition and Recall. 
+                </p>
+            <dl>
+                <dt>#1. </dt>
+                <dd>Its loading animations are minimal but consistent, and the active filters are shown above the filter selections.</dd>
+                <dt>#4.</dt>
+                <dd> Comparing it to the Mullen Library Search Catalog, the filtering system of NGA mostly meets standards, but deviates with its 
+                    replacement filter system. When selecting a format, for example, the entire format section disappears after application and the 
+                    user must delete the filter for it to return.
+                </dd>
+                <dt> #6.</dt>
+                <dd>The replacement filter system forces the user to recall past filters in case they make a mistake and missed a needed filter.
+                </dd>
+            </dl>
+        <h2>Item Metadata & Buttons</h2>
+            <p>Overall, the buttons meet expectations. The endnote button can be confusing if someone does not know what it is. I tried sending an email 
+                through the email button but didn’t receive anything, so it's inconclusive what it does. This could be something that requires the user 
+                to be signed in, however, that is not notated. 
+            </p>
+            <p>The metadata can be spotty at times. As expected, information such as title, publisher, the standard number, the location in the library, 
+                and how to access the item is consistently available for items. Metadata about what information the item provides is not always available 
+                or easy to find.
+            </p> 
+            <table border=2>
+                    <tr>
+                    <th>Button</th>
+                    <th>Function</th>
+                    <th>Image</th>
+                    </tr>
+                    <tr>
+                    <td >Title</td>
+                    <td>Clicking on the title will pull up more information on the item - export information, details of the item, location, other titles 
+                        to browse.This is the same page that the location, QR code, and permalink will direct you to.
+                    </td>
+                    <td><img src="https://i.imghippo.com/files/S9113uA.jpg" style= width="450" height="450"></td>
+                    </tr>
+                    <tr>
+                    <td >Location</td>
+                    <td>Clicking on the location will direct you to the same information page as the title, the only difference is it takes you directly 
+                        to the location section of the page.
+                    </td>
+                    <td><img src="https://i.imghippo.com/files/ENJr6963anQ.jpg" style= width="300" height="300"></td>
+                    </tr>
+                    <tr>
+                    <td >QR</td>
+                    <td>This button generates a QR code that links to the item’s information. There is also a button that lets you copy the link. Both take 
+                        you to the same page.
+                    </td>
+                    <td><img src="https://i.imghippo.com/files/JkPg4808AA.jpg" style= width="300" height="300"></td>
+                    </tr>
+                    <tr>
+                    <td >Export to Excel</td>
+                    <td>This button promts you to choose the file type (xslx or csv) and download an Excel file. The Excel file has information about the item 
+                        - title, uniform title, creator, publisher, date, edition or state, format, access note, description, biographical/historical notes, 
+                        source of acquisition, is part of, dissertation, subject, contents, other title, related titles, notes, series, frequency, bound with,  
+                        standard number, permalink.
+                    </td>
+                    <td><img src="https://i.imghippo.com/files/QKd4769HE.jpg" style= width="250" height="250"></td>
+                    </tr>
+                    <tr>
+                    <td >Endnote</td>
+                    <td>Opens a new tab to log into EndNote, which is a reference management software use to help manage references.</td>
+                    <td><img src="https://i.imghippo.com/files/lJnG8783tHE.jpg" style= width="450" height="450"></td>
+                    </tr>
+                    <tr>
+                    <td >Email</td>
+                    <td>This button prompts you to add an email address to send an email. It includes the subject line of the email. When an email address 
+                        is not correctly inputted, a message appears stating the error. It instructs the user to log in if they want to send the email to 
+                        multiple recipients and includes directions on how to send it to multiple recipients. Clicking on the envelope icon will pull up 
+                        the same thing.
+                    </td>
+                    <td><img src="https://i.imghippo.com/files/GVz6219guE.jpg" style= width="300" height="300"></td>
+                    </tr>
+                    <tr>
+                    <td >Citation</td>
+                    <td>This button generates a citation. You can choose one of five citation styles - Chicago manual of style 16th edition, APA (6th edition), 
+                        MLA (8th edition), Harvard, and MLA (7th edition). There is a button to copy the citation. It also notes that the citation should be 
+                        checked for accuracy before using it.
+                    </td>
+                    <td><img src="https://i.imghippo.com/files/aRG3914bAY.jpg" style= width="250" height="250">
+                    </tr>
+                    <tr>
+                    <td >Print</td>
+                    <td>Opens a new tab with a prompt to print the document. It includes information about the item - added entry, publisher, date, format, 
+                        subject, notes, series, standard number, availability, location.
+                    </td>
+                    <td><img src="https://i.imghippo.com/files/fTyM9632ds.jpg" style= width="400" height="400"></td>
+                    </tr>
+                    <tr>
+                    <td >Permalink</td>
+                    <td>This button presents the link to the item's information page. It has a button to copy the link. Clicking on the link icon will pull 
+                        up the same thing.
+                    </td>
+                    <td><img src="https://i.imghippo.com/files/DPyg7134sA.jpg" style= width="200" height="200"></td>
+                    </tr>
+                    <tr>
+                    <td >Pin icon</td>
+                    <td>This button will mark the item as a favorite so you can quickly reference it later if you go to your favorites page.</td>
+                    <td><img src="https://i.imghippo.com/files/Xhui1302sQ.jpg" style= width="300" height="300"></td>
+                    </tr>
+                    <tr>
+                    <td >Favorites</td>
+                    <td>This button will his will direct you to the favorites page. If you are signed in, it will keep pinned items and your search history 
+                        for multiple search sessions. If you are not signed in, it will only keep this information until you end your search session.
+                    </td>
+                    <td><img src="https://i.imghippo.com/files/QuHB3936PP.jpg" style= width="250" height="250"></td>
+                    </tr>
+                    <tr>
+                    <td >Chapters of this book</td>
+                    <td>This button directs you to a page that lists chapters in the book.</td>
+                    <td><img src="https://i.imghippo.com/files/FLRk7583cJ.jpg" style= width="300" height="450"></td>
+                    </tr>
+                    <tr>
+                    <td >Chapter Title</td>
+                    <td>Clicking on a chapter title will pull up more information on that chapter. It includes a description of what is in the chapter, 
+                        which is the first time I have seen any sort of summary of what is in the book.
+                    </td>
+                    <td><img src="https://i.imghippo.com/files/yF7901EUA.jpg" style= width="300" height="450"></td>
+                    </tr>
+                </table>
+        <h2>Accessibility: Tools and Challenges</h2>
+            <p>
+                Accessibility in web design is an axis of technical and aesthetic design that cuts across specific feature-sets and gets at
+                the heart of "usability". Accessibility in a search page can take many forms, and the National Gallery Library employs several
+                key features in order to make their page more accesisbile to users with a variety of levels of ability, and to meet the standards set
+                by the Web Content Accessibility Guidelines.
+                <br>
+                <br>
+                The most critical accessibility features on this page have to do with input methods. In addition to the text based search bar,
+                there is the option to select an audio-based search term input. This increases the Operability of the page, and can enable users 
+                who might struggle with a keyboard to enter their search terms via another method. The other key input feature is keyboard navigation. 
+                All elements on the search page are navigable and selectable via the web-standard tab-and-arrow-keys method. 
+                <br>
+                <br>
+                In addition to this base component, the site includes several "hidden" buttons
+                that only become visible when navigating the page in this way (see below). These buttons enable quick travel across the page to specific high
+                value locations within the search features and search results.
+            </p>
+            <table border=2>
+                <tr>
+                    <td>
+                        <img src="assets/main.png" height="75%" width="75%"></img>
+                    </td>
+                    <td>
+                        <img src="assets/search.png" height="75%" width="75%"></img>
+                    </td>
+                    <td>
+                        <img src="assets/results.png" height="75%" width="75%"></img>
+                    </td>
+                    <td>
+                        <img src="assets/facets.png" height="75%" width="75%"></img>
+                    </td>
+                </tr>
+            </table>
+            <p>
+                <br>
+                Although the site includes these features, and receives 
+                <a href="https://www.accessibilitychecker.org/audit/?website=https%3A%2F%2Flibrary.nga.gov%2Fdiscovery%2Fsearch%3Fvid%3D01NGA_INST%3ANGA&flag=us">
+                    good marks</a>
+                from accessibility standards checking programs, it is not without its faults in this area. The base text colors and fonts are well chosen
+                for readability, but there is no built in method for text-resizing, or any true dedicated accessibility options menu at all. In addition 
+                to this, some features are not successful on all browsers; within our project group, we had multiple users experience the "microphone" icon
+                that enables the text-to-speech capability not appear at all. 
+                <br>
+                <br>
+                Similarly, more advanced features such as search term suggestions and corrections (such as misspellings) are not well supported by these features.
+                The "virtual browse" menu is another element on the item result page which does not respond as expected to keyboard navigation.
+            </p>
+        <h2>Recommendations for Improvement</h2>
+    </body>
+</html>
